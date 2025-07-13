@@ -6,8 +6,8 @@ while (consition) {
   //loop body
 }
 
-let i = 0;
-while (i < 3) {
+let s = 0;
+while (s < 3) {
   // show 0, then 1, then 2
   alert(1);
   i++;
@@ -20,8 +20,8 @@ while (i) {
   i--;
 }
 
-let i = 3;
-while (i) alert(i--);
+let r = 3;
+while (r) alert(i--);
 
 //do... while loop
 do {
@@ -44,10 +44,10 @@ for (m = 0; m < 3; m++) {
 }
 
 //Tasks
-let i = 3;
+let p = 3;
 
-while (i) {
-  alert(i--);
+while (p) {
+  alert(p--);
 }
 
 //Output even numbers in the loop
@@ -62,8 +62,8 @@ for (let i = 0; i < 3; i++) {
   alert(`number ${i}`);
 }
 
-let i = 0;
-while (i < 3) {
+let y = 0;
+while (y < 3) {
   alert(`number ${i}`);
   i++;
 }
