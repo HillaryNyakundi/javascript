@@ -87,3 +87,41 @@ if (a + b < 4) {
 
 // rewriting the above using the ternary operator
 let newResult = a + b < 4 ? "Below" : "Over";
+
+let jsname = prompt("Whats the official name of javascript?", "");
+
+if (jsname == "ECMAscript") {
+  alert("Right!");
+} else {
+  alert("You dont know ECMAScript?");
+}
+
+let number = prompt("Type a number her!", 0);
+
+if (number > 0) {
+  alert(1);
+} else if (number < 0) {
+  alert(-1);
+} else {
+  alert(0);
+}
+
+//rewrite 'if' into '?'
+let result;
+
+if (a + b < 4) {
+  result = "Below";
+} else {
+  result = "over";
+}
+
+let result = a + b < 4 ? "Below" : "over";
+
+let message =
+  login == "Employee"
+    ? "Hello"
+    : login == "Director"
+    ? "Greetings"
+    : login == ""
+    ? "No login"
+    : "";

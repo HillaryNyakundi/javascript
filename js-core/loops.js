@@ -87,3 +87,63 @@ nextPrime: for (let i = 2; i <= n; i++) {
 
   alert(i); // a prime
 }
+
+//for (let i = 0; i < 3; i++)
+
+//run begin
+let i = 0;
+// if condition, run bodyand then run step
+if (i < 3) {
+  alert(i);
+  i++;
+}
+// if condition , run bodyand then run step
+if (i < 3) {
+  alert(i);
+  i++;
+}
+//if condition, run body and then run step
+if (i < 3) {
+  alert(i);
+  i++;
+}
+// finish, because now i == 3
+
+for (let i = 0; i < 3; i++) {
+  alert(i); // 0, 1,2
+}
+alert(i); //error, no such variable
+
+let i = 0;
+
+for (i = 0; i < 3; i++) {
+  alert(i); //0, 1,2
+}
+
+alert(i); //3. visible beacuse declared outside of the loop
+
+let sum = 0;
+
+while (true) {
+  let value = +prompt("Enter a number", "");
+
+  if (!value) break;
+
+  sum += value;
+}
+alert("Sum:" + sum);
+
+//continue to the next iteration
+for (let i = 0: i < 10; i++){
+
+  //if true, skip the remaining part of the body
+  if(i % 2 == 0) continue;
+
+  alert(i);// 1, then 3, 4, 5,6, 7, 9
+}
+
+for(let i = 0; 1 < 10; i++) {
+  if (i % 2) {
+    alert(i)
+  }
+}

@@ -87,3 +87,70 @@ let nickName = "Supercoder";
 
 //show the first truthy value
 alert(firstName || lastName || nickName || Anonymous);
+
+if (age >= 14 && age <= 90)
+
+if (!(age >= 14 && age <= 90))
+
+if(age < 14 && age > 90)
+
+
+let userName = prompt('Who is there?', '')
+
+if(userName == 'Admin'){
+
+  let pass = prompt('Enter your password?', '')
+
+  if(pass = 'TheMaster') {
+    alert('welcome')
+  } else if(pass === '' || pass === null) {
+    alert('canceled');
+  } else {
+    alert('wrong password')
+  }
+} else if (userName === '' || userName === null) {
+  alert('Canceled')
+} else {
+  alert("I dont know you")
+}
+
+//nullish coalescing operator '??'
+result = a ?? b
+
+result = (a !== null && b !== undefined) ? a : b;
+
+let user;
+
+//show the uaer if its value isn't null/uundefined, otherwise Anonymous
+alert(user ?? 'anonymous');
+
+let user = 'John'
+
+alert(user ?? 'Anonymous');
+
+let firstName = null;
+let lastName = null;
+let nickName = 'Nyakundi';
+
+//show the first defined value
+alert(firstName ?? lastName ?? nickName ?? 'Anonymous')
+
+let firstName = null;
+let lastName = null;
+let nickName = 'Supercoder'
+
+//show the first truthy value
+alert(firstName || lastName || nickName || "AnonymousS")
+
+let height = 0;
+
+alert(height || 100); // 100
+alert(height ?? 100); // 0
+
+let height = null;
+let width = null;
+
+// important: use parentheses
+let area = (height ?? 100) * (width ?? 50);
+
+alert(area)
